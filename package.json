@@ -1,8 +1,11 @@
 {
-  "name": "kql",
-  "version": "7.5.1-1",
-  "description": "",
+  "name": "@mbears/kql",
+  "version": "7.5.0-2",
+  "description": "Translate KQL to ESQuery",
   "main": "index.js",
+  "keywords": [
+    "kql"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/MBearo/kql.git"
   },
-  "author": "",
+  "author": "weiqi wu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MBearo/kql/issues"
