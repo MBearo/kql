@@ -2,7 +2,7 @@ const axios = require('axios')
 const { buildEsQuery } = require('./kbn-es-query/target/server/index')
 
 
-const esQuery = async (url, _id, query, gte, lte) => {
+const esQuery = async (url, _id, query, range) => {
   const fieldsRes = await axios.post(url, {
     docs: [{ _id, _index: ".kibana" }]
   })
@@ -16,13 +16,7 @@ const esQuery = async (url, _id, query, gte, lte) => {
       query
     }],
     [{
-      range: {
-        "@timestamp": {
-          format: "strict_date_optional_time",
-          gte,
-          lte
-        }
-      }
+      range
     }],
     {}
   )
