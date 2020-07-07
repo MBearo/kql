@@ -1,0 +1,33 @@
+{
+  "name": "kql",
+  "version": "8.0.0-0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MBearo/kql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MBearo/kql/issues"
+  },
+  "homepage": "https://github.com/MBearo/kql#readme",
+  "dependencies": {
+    "@elastic/datemath": "^5.0.3",
+    "@types/elasticsearch": "^5.0.36",
+    "@types/lodash": "^4.14.157",
+    "axios": "^0.19.2",
+    "elasticsearch": "^16.7.1",
+    "lodash": "^4.17.15",
+    "moment-timezone": "^0.5.31"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
