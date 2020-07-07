@@ -1,6 +1,6 @@
 {
   "name": "@mbears/kql",
-  "version": "7.5.0-2",
+  "version": "7.5.0-3",
   "description": "Translate KQL to ESQuery",
   "main": "index.js",
   "keywords": [
