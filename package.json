@@ -24,7 +24,7 @@
     "@elastic/datemath": "^5.0.3",
     "@types/elasticsearch": "^5.0.36",
     "@types/lodash": "^4.14.157",
-    "axios": "^0.19.2",
+    "axios": "^0.21.2",
     "elasticsearch": "^16.7.1",
     "lodash": "^4.17.15",
     "moment-timezone": "^0.5.31"
