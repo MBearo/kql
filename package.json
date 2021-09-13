@@ -1,11 +1,12 @@
 {
   "name": "@mbears/kql",
-  "version": "7.5.0-4",
+  "version": "7.5.0-7",
   "description": "Translate KQL to ESQuery",
   "main": "index.js",
   "keywords": [
     "kql"
   ],
+  "files": ["temp"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
